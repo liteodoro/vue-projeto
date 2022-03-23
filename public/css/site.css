@@ -1,6 +1,6 @@
 
     header {
-        background-image: url(../Imagens/fundo\ 1.jpg);
+        background-image: url(src\assets\imagens\fundo 1.jpg);
         text-align:center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-position: center;
@@ -28,23 +28,12 @@
         padding-bottom: 50px;
     }
 
-   /* #propaganda2{
-        background-color: orangered;
-        
-    }*/
-    
-/*#demostracao div{
-        float: left;
-
-    } */
-
     #demostracao div img{
        width: 100%;
        padding: 60px;
     }
 
     #demostracao div img:hover{
-       /* border: solid 2px #88888888;*/
         padding: 20px;
         
     }
@@ -55,34 +44,6 @@
 
 /* navegação*/
 
-   /* nav {
-    position: sticky;
-    top: 0;
-    height: auto;
-    min-height: 60px;
-    width: 100%;
-    float: left;
-    }
-
-    nav ul{
-
-        display:block;   
-    }
-
-    nav ul li{
-        display: inline-block;
-        line-height: 49px;
-    }
-
-    nav ul li a {
-     color: green;
-     text-decoration: none;
-     padding: 15px 25px;
-     /*padding-left: 25px;
-     padding-right: 25px;
-     padding-top: 16px;
-     padding-bottom: 16px;
- }*/
     .navbar{
       padding: 0;
     }
@@ -158,8 +119,7 @@
         right: 20px;
         padding: 10px;
         font-size: 2em;
-        /* border: solid 3px;
-        border-radius: 50px; */
+       
     }
 
     .btnVoltar a {
