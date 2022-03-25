@@ -42,7 +42,7 @@
                     <div class="imgBG4 border-circle size">
                     </div>
                     <div class="text-center">
-                      <a href="mulher.html" target="_blank">
+                      <a href="#mulher" target="_blank">
                         <H4>Para Elas</h4>
                     </a>
 
@@ -52,7 +52,7 @@
                     <div class="imgBG5 border-circle size">
                     </div>
                     <div class="text-center">
-                      <a href="homen.html" target="_blank">
+                      <a href="#homen" target="_blank">
                         <H4>Para Eles</h4>
                     </a>
                     </div>
@@ -69,7 +69,7 @@
                     <div class="col-md-8 col-12 py-2 px-5">
                         <div class="row produtos p-2 border-circle">
                             <div class="col-md-4 col-12 text-center">
-                                <img src="../../src/assets/imagens/bone.jpg" class="img-fluid rounded-circle">
+                                <img src="@/assets/imagens/bone.jpg" class="img-fluid rounded-circle">
                             </div>
                             <div class="col-md-8 col-12 pt-4">
                                 <div class="border-bottom border-dark">
@@ -87,7 +87,7 @@
                     <div class="col-md-8 col-12 py-2 px-5">
                       <div class="row produtos p-2 border-circle">
                           <div class="col-4">
-                              <img src="../../src/assets/imagens/Bolsa.jpg" class="img-fluid rounded-circle">
+                              <img src="@/assets/imagens/Bolsa.jpg" class="img-fluid rounded-circle">
                           </div>
                           <div class="col-md-8 col-12 pt-4">
                               <div class="border-bottom border-dark">
@@ -107,7 +107,7 @@
                       <div class="col-md-8 col-12 py-2 px-5">
                           <div class="row produtos p-2 border-circle">
                               <div class="col-md-4 col-12 text-center">
-                                  <img src="../../src/assets/imagens/sapato2.jpg" class="img-fluid rounded-circle">
+                                  <img src="@/assets/imagens/sapato2.jpg" class="img-fluid rounded-circle">
                               </div>
                               <div class="col-md-8 col-12 pt-4">
                                   <div class="border-bottom border-dark">
@@ -124,7 +124,7 @@
                       </div>
 
                     <div class="col-md-4 py-1 fui">
-                        <img src="../../src/assets/imagens/propaganda roupa2.jpg" class="img-fluid">
+                        <img src="@/assets/imagens/propagandaroupa2.jpg" class="img-fluid">
                       </div>
                     </div>
                 </section>
@@ -188,7 +188,7 @@ export default {
 
  .imgBG1 { background-image: url(src\assets\imagens\promo.jpg);}
 
-    .imgBG2 { background-image: url(src\assets\imagens\promoçãoblackf.png);}
+    .imgBG2 { background-image: url(src\assets\imagens\promocaoblackf.png);}
     
     .imgBG3 { background-image: url(src\assets\imagens\acessorios.jpg);}
 

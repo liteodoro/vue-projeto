@@ -17,7 +17,7 @@ export default {
 <style scoped>
 
 header {
-        background-image: url(@/src/assets/logo.png);
+        background-image: url(@/assets/logo.png);
         text-align:center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-position: center;

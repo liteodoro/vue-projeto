@@ -8,8 +8,7 @@
          <navbar-page />
 
                   <!--começo propaganda1-->
-                  <section id="propaganda1" class="container bg-orangered">
-                      
+                  <section id="propaganda1" class="container bg-orangered"> 
                       <div
                        id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -45,7 +44,7 @@
                     <div class="imgBG4 border-circle size">
                     </div>
                     <div class="text-center">
-                      <a href="mulher.html" target="_blank">
+                      <a href="#mulher" target="_blank">
                         <H4>Para Elas</h4>
                     </a>
 
@@ -55,7 +54,7 @@
                     <div class="imgBG5 border-circle size">
                     </div>
                     <div class="text-center">
-                      <a href="homen.html" target="_blank">
+                      <a href="#homen" target="_blank">
                         <H4>Para Eles</h4>
                     </a>
                     </div>
@@ -88,7 +87,7 @@
                     <div class="col-md-8 col-12 py-2 px-5">
                       <div class="row produtos p-2 border-circle">
                           <div class="col-4">
-                              <img src="@/assets/imagens/Bolsa.jpg" class="img-fluid rounded-circle">
+                              <img src="@/assets/imagens/bolsa.jpg" class="img-fluid rounded-circle">
                           </div>
                           <div class="col-md-8 col-12 pt-4">
                               <div class="border-bottom border-dark">
@@ -125,9 +124,10 @@
                       </div>
 
                     <div class="col-md-4 py-1 fui">
-                        <img src="@/assets/imagens/propaganda roupa2.jpg" class="img-fluid">
+                        <img src="@/assets/imagens/propagandaroupa2.jpg" class="img-fluid">
                       </div>
                     </div>
+                   </div> 
                 </section>
 
                         <!--propaganda social-->
@@ -173,19 +173,19 @@
                         <p> Projeto Aline Teodoro </p>
                  </footer>
 
-</main>
+ </main>
   
 </template>
 
 <script>
 //@ e um atalho para o src
 
-import headerPage from "@/components/HeaderPage.vue";
-import NavbarPage from "@/components/NavbarPage.vue";
+import HeaderPage from "@/components/pages/HeaderPage.vue";
+import NavbarPage from "@/components/pages/NavbarPage.vue";
 
 export default {
   components: {
-    headerPage,
+    HeaderPage,
     NavbarPage,
   },
 };
@@ -310,13 +310,13 @@ export default {
 
  .imgBG1 { background-image: url(@/assets/promo.jpg);}
 
-    .imgBG2 { background-image: url(@/assets/imagens/promoçãoblackf.png);}
+    .imgBG2 { background-image: url(@/assets/imagens/promocaoblackfriday2.png);}
     
     .imgBG3 { background-image: url(@/assets/imagens/acessorios.jpg);}
 
-    .imgBG4 { background-image: url(@/assets/imagens/girl-1.jpg);}
+    .imgBG4 { background-image: url(@/assets/imagens/girl1.jpg);}
 
-    .imgBG5 { background-image: url(@/assets/imagens/hom-fig1.jpg);}
+    .imgBG5 { background-image: url(@/assets/imagens/homfig1.jpg);}
 
     .size{
         max-width: 700px;
