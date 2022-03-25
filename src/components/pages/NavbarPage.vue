@@ -8,19 +8,19 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="#index">Inicio</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="logon.html">Usuário</a>
+                     <a class="nav-link active" aria-current="page" href="#logon">Usuário</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="mulher.html">Mulher</a>
+                     <a class="nav-link active" aria-current="page" href="#mulher">Mulher</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="homen.html">Homem</a>
+                     <a class="nav-link active" aria-current="page" href="#homen">Homem</a>
                    </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="sacola.html"><i class="bi bi-bag-fill"></i></a>
+                    <a class="nav-link" href="#sacola"><i class="bi bi-bag-fill"></i></a>
                   </li>
                   
                 </ul>
@@ -34,7 +34,9 @@
 </template>
 
 <script>
-
+export default {
+  name: "NavbarPage",
+};
 </script>
 
 <style scoped>
