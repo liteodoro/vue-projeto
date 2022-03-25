@@ -7,6 +7,7 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+
   {
     path: '/about',
     name: 'about',
@@ -16,13 +17,15 @@ const routes = [
   {
     path: '/logon',
     name: 'logon',
-    component: () => import('@/views/LogonView.vue') // "=>" equivale a uma "function(){}"
+    component: () => import('@/views/LogonView.vue') 
   },
-  {
-    path: '/produtos',
-    name: 'produtos',
-    component: () => import('@/views/ProdutosView.vue')
-  }
+
+ {
+   path: '/produtos',
+   name: 'produtos',
+   component: () => import('@/views/ProdutosView.vue')
+ }
+ 
 ]
 
 const router = createRouter({
