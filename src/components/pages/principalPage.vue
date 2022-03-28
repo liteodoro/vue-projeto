@@ -1,7 +1,7 @@
 <template>
-<main id="home">
+<main id="Home">
          <div class="btnVoltar">
-            <a href="#home"><i class="bi bi-arrow-up-circle"></i></a>
+            <a href="principalPage.vue"><i class="bi bi-arrow-up-circle"></i></a>
          </div>
 
                   <!--começo propaganda1-->

@@ -1,7 +1,7 @@
 <template>
     <header>
               <div class="logo">
-                <img src="@/assets/logo.png" alt="Logo marca da loja Costela de Adão Modas."
+                <img src="@/assets/imagens/LogoM.jpg" alt="Logo marca da loja Costela de Adão Modas."
                  title="logo marca Costela de Adão Modas">
               </div>
            </header>
@@ -17,7 +17,7 @@ export default {
 <style scoped>
 
 header {
-        background-image: url(@/assets/logo.png);
+        background-image: url(@/assets/imagens/LogoM.jpg);
         text-align:center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-position: center;
