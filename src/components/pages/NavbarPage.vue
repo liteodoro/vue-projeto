@@ -34,8 +34,33 @@
 </template>
 
 <script>
+import { Usuario } from "@/models/Usuario";
+import router from "@/router";
+var usuario = new Usuario();
 export default {
   name: "NavbarPage",
+  data() {
+    return {
+      usuario,
+    };
+  },
+  methods: {
+    getUsuario() {
+      let user = JSON.parse(localStorage.getItem("user"));
+      this.usuario = typeof user === undefined ? null : user;
+    },
+    logoffUsuario() {
+      localStorage.clear();
+      this.usuario = null;
+      router.push("/");
+    },
+  },
+  mounted() {
+    this.getUsuario();
+  },
+  watch() {
+    this.usuario;
+  },
 };
 </script>
 
