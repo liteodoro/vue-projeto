@@ -151,7 +151,7 @@ export default {
   name: "ProdutodetView.vue",
 };
 
-import NavbarPage from "@/components/pages/NavbarPage.vue";
+import NavbarPage from "@/components/NavbarPage.vue";
 
 export default {
   components: {

@@ -116,7 +116,7 @@ export default {
         typeof this.usuario.foto_perfil == undefined ||
         this.usuario.foto_perfil == ""
       ) {
-        return "@/assets/fotoperfil.jpg";
+        return "@/assets/imagens/fotoperfil.jpg";
       }
       return "http://localhost/api/midias/user/" + this.usuario.foto_perfil;
     },

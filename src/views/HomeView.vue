@@ -180,8 +180,8 @@
 <script>
 //@ e um atalho para o src
 
-import HeaderPage from "@/components/pages/HeaderPage.vue";
-import NavbarPage from "@/components/pages/NavbarPage.vue";
+import HeaderPage from "@/components/HeaderPage.vue";
+import NavbarPage from "@/components/NavbarPage.vue";
 
 export default {
   components: {

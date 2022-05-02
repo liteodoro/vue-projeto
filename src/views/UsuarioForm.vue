@@ -1,4 +1,5 @@
 <template>
+<main>
   <NavbarPage />
   <section class="container bg-light">
     <div class="form-group">
@@ -89,6 +90,7 @@
       </button>
     </div>
   </section>
+  </main>
 </template>
 
 <script>
