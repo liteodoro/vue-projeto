@@ -308,7 +308,7 @@ export default {
     }
 
 
- .imgBG1 { background-image: url(@/assets/promo.jpg);}
+    .imgBG1 { background-image: url(@/assets/imagens/promo.jpg);}
 
     .imgBG2 { background-image: url(@/assets/imagens/promocaoblackfriday2.png);}
     

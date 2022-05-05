@@ -22,7 +22,6 @@
                 aria-describedby="helpId"
                 id="files"
                 ref="files"
-                multiple
                 @change="upload()"
               />
               <small id="helpId" class="text-muted"></small>
