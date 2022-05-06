@@ -43,7 +43,7 @@
                     </div>
                     <div class="text-center">
                       <ul>
-                        <li><router-link to="/Mulher"></router-link></li>
+                        <!--<li><router-link to="/Mulher"></router-link></li>-->
                         <H4>Para Elas</h4>
                       </ul>
                       <!--<a href="/Mulher" target="_blank">
@@ -56,7 +56,7 @@
                     </div>
                     <div class="text-center">
                       <ul>
-                        <li><router-link to="/Homem"></router-link></li>
+                       <!-- <li><router-link to="/Homem"></router-link></li>-->
                         <H4>Para Eles</h4>
                       </ul>
                       <!--<a href="/Homem" target="_blank">
