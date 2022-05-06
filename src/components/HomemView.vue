@@ -167,10 +167,11 @@ export default {
 import NavbarPage from "@/components/NavbarPage.vue";
 
 export default {
-  components: {
-   name: NavbarPage,
+ components: {
+  name: 'NavbarPage',
   }
 };
+
 </script>
 
 <style>

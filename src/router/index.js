@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import MulherView from '../components/MulherView.vue';
-import HommenView from '../components/HomemView.vue';
+//import MulherView from '../components/MulherView.vue';
+//import HommenView from '../components/HomemView.vue';
 
 const routes = [{
         path: '/',
@@ -59,18 +59,18 @@ const routes = [{
     },
 
     {
-        path: '/Mulher',
-        name: 'Mulher',
-        component: () =>
-            import ('@/components/MulherView.vue') 
+        //path: '/Mulher',
+       // name: 'Mulher',
+        //component: () =>
+          //  import ('@/components/MulherView.vue') 
 
     },
 
     {
-        path: '/Homem',
-        name: 'Homem',
-        component: () =>
-            import ('@/components/HomemView.vue') 
+       // path: '/Homem',
+       // name: 'Homem',
+       // component: () =>
+          //  import ('@/components/HomemView.vue') 
 
     },
 ];

@@ -132,7 +132,7 @@
               </div>
               <div class="col">
                 <div class="card h-100">
-                  <img src="@/assets/imagens/Bolsa.jpg" class="card-img-top" alt="sugestao1">
+                  <img src="@/assets/imagens/bolsa.jpg" class="card-img-top" alt="sugestao1">
                   <div class="card-body">
                     <h5 class="card-title text-black">Bolsas</h5>
                     <p class="card-text text-black">Cabe tudo: as suas companheiras de rotina. Entre os modelos de bolsas que vão e voltam, estão as bolsas da moda</p>
@@ -166,7 +166,7 @@
 
 <script>
 export default {
-  name: 'MulherView',
+ // name: 'MulherView',
 };
 
 import NavbarPage from "@/components/NavbarPage.vue";
