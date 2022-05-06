@@ -42,19 +42,26 @@
                     <div class="imgBG4 border-circle size">
                     </div>
                     <div class="text-center">
-                      <a href="#mulher" target="_blank">
+                      <ul>
+                        <li><router-link to="/Mulher"></router-link></li>
                         <H4>Para Elas</h4>
-                    </a>
-
+                      </ul>
+                      <!--<a href="/Mulher" target="_blank">
+                        <H4>Para Elas</h4>
+                    </a>-->
                     </div>
                   </div>
                   <div class="col-md-6 col-12">
                     <div class="imgBG5 border-circle size">
                     </div>
                     <div class="text-center">
-                      <a href="#homen" target="_blank">
+                      <ul>
+                        <li><router-link to="/Homem"></router-link></li>
                         <H4>Para Eles</h4>
-                    </a>
+                      </ul>
+                      <!--<a href="/Homem" target="_blank">
+                        <H4>Para Eles</h4>
+                    </a>-->
                     </div>
                   </div>
                 </div>

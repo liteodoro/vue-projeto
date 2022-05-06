@@ -166,15 +166,15 @@
 
 <script>
 export default {
-  name: "MulherView.vue",
+  name: 'MulherView',
 };
 
 import NavbarPage from "@/components/NavbarPage.vue";
 
 export default {
-  components: {
+  components: 
     NavbarPage,
-  },
+  
 };
 </script>
 

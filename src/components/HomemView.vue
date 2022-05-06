@@ -161,15 +161,15 @@
 
 <script>
 export default {
-  name: "HomemView.vue",
+  name: "HomemView",
 };
 
 import NavbarPage from "@/components/NavbarPage.vue";
 
 export default {
   components: {
-    NavbarPage,
-  },
+   name: NavbarPage,
+  }
 };
 </script>
 
