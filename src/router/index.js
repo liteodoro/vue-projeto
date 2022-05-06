@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
+import MulherView from '../components/MulherView.vue';
+import HommenView from '../components/HomemView.vue';
 
 const routes = [{
         path: '/',
@@ -9,46 +11,43 @@ const routes = [{
     {
         path: '/about',
         name: 'about',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
         component: () =>
-            import ( /* webpackChunkName: "about" */ '../views/AboutView.vue')
+            import ('../views/AboutView.vue')
 
     },
     {
         path: '/logon',
         name: 'login',
         component: () =>
-            import ('@/views/LogonView.vue') // "=>" equivale a uma "function(){}"
+            import ('@/views/LogonView.vue') 
 
     },
     {
         path: '/usuario_add',
         name: 'usuario_add',
         component: () =>
-            import ('@/views/UsuarioForm.vue') // "=>" equivale a uma "function(){}"
+            import ('@/views/UsuarioForm.vue') 
 
     },
     {
         path: '/usuario_list',
         name: 'usuario_list',
         component: () =>
-            import ('@/views/UsuarioList.vue') // "=>" equivale a uma "function(){}"
+            import ('@/views/UsuarioList.vue') 
 
     },
     {
         path: '/usuario_perfil',
         name: 'usuario_pefil',
         component: () =>
-            import ('@/views/UsuarioPerfil.vue') // "=>" equivale a uma "function(){}"
+            import ('@/views/UsuarioPerfil.vue') 
 
     },
     {
         path: '/pedidos',
         name: 'pedidos',
         component: () =>
-            import ('@/views/PedidosView.vue') // "=>" equivale a uma "function(){}"
+            import ('@/views/PedidosView.vue') 
 
     },
     {
@@ -57,8 +56,25 @@ const routes = [{
         component: () =>
             import ('@/views/ProdutosView.vue')
 
-    }
+    },
+
+    {
+        path: '/Mulher',
+        name: 'Mulher',
+        component: () =>
+            import ('@/components/MulherView.vue') 
+
+    },
+
+    {
+        path: '/Homem',
+        name: 'Homem',
+        component: () =>
+            import ('@/components/HomemView.vue') 
+
+    },
 ];
+
 
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
