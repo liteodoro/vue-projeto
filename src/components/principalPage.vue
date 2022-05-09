@@ -94,7 +94,7 @@
                     <div class="col-md-8 col-12 py-2 px-5">
                       <div class="row produtos p-2 border-circle">
                           <div class="col-4">
-                              <img src="@/assets/imagens/Bolsa.jpg" class="img-fluid rounded-circle">
+                              <img src="@/assets/imagens/bolsa.jpg" class="img-fluid rounded-circle">
                           </div>
                           <div class="col-md-8 col-12 pt-4">
                               <div class="border-bottom border-dark">

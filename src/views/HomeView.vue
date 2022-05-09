@@ -1,11 +1,11 @@
  <template>
   <main id="Home">
          <div class="btnVoltar">
-            <a href="HomeView.vue"><i class="bi bi-arrow-up-circle"></i></a>
+            <a router-link to="/"><i class="bi bi-arrow-up-circle"></i></a>
          </div>
 
-         <header-page />
-         <navbar-page />
+         <Header-page />
+         <Navbar-page />
 
                   <!--começo propaganda1-->
                   <section id="propaganda1" class="container bg-orangered"> 
