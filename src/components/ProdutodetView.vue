@@ -147,15 +147,26 @@
 </template>
 
 <script>
-export default {
-  name: "ProdutodetView.vue",
-};
-
 import NavbarPage from "@/components/NavbarPage.vue";
 
 export default {
+  name: "ProdutodetView.vue",
   components: {
     NavbarPage,
   },
+  data() {
+    return {
+        dataAtual = new Date()
+    };
+  },
+  methods:{
+    bomdia() {
+      alert("Bom dia!");
+    }
+  },
+  mounted() {
+   this.bomdia()
+  },
+  
 };
 </script>
