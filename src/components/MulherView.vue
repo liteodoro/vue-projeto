@@ -1,14 +1,14 @@
 <template>
   <main id="home">
     <div class="btnVoltar">
-      <a href="#home"><i class="bi bi-arrow-up-circle"></i></a>
+      <a href="/"><i class="bi bi-arrow-up-circle"></i></a>
     </div>
-
-    <NavbarPage />
 
     <section id="palalogin" class="container text-white bg-green">
       <h3>Costela de Adão Modas</h3>
     </section>
+
+     <NavbarPage/>
 
     <section id="corpo" class="container bg-whitesmoke">
       <div class="p-5">
@@ -94,7 +94,7 @@
           <div class="row produtos">
             <div>
               <img
-                src="@/assets/imagens/girl3.jpg"
+                src="@/assets/imagens/girl1.jpg"
                 alt="Produto 1"
                 class="img-fluid"
               />
@@ -158,10 +158,13 @@
         </div>
       </div>
     </section>
+    <section id="corpo" class="container bg-whitesmoke p-5"></section>
+    <div>
+
+    </div>
     <section
       id="sugestao"
-      class="container text-center text-white bg-orangered"
-    >
+      class="container text-center text-white bg-orangered g-4 p-5">
       <h2>Sugestões</h2>
 
       <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -239,7 +242,9 @@
 import NavbarPage from "@/components/NavbarPage.vue";
 export default {
   name: "MulherView",
-  components: NavbarPage,
+  components: {
+     NavbarPage,
+  },
 };
 </script>
 

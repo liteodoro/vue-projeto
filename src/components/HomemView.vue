@@ -4,11 +4,11 @@
       <a href="#home"><i class="bi bi-arrow-up-circle"></i></a>
     </div>
 
-    <navbar-page />
-
     <section id="palalogin" class="container text-white bg-green">
       <h3>Costela de Adão Modas</h3>
     </section>
+
+     <navbar-page/>
 
     <section id="corpo" class="container bg-whitesmoke">
       <div class="p-5">
@@ -20,7 +20,7 @@
           <div class="row produtos">
             <div>
               <img
-                src="@/assets/imagens/homfig1.jpg"
+                src="@/assets/imagens/homfig2.jpg"
                 alt="Produto 1"
                 class="img-fluid"
               />
@@ -88,7 +88,7 @@
           <div class="row produtos">
             <div>
               <img
-                src="@/assets/imagens/homfig3.jpg"
+                src="@/assets/imagens/homfig2.jpg"
                 alt="Produto 1"
                 class="img-fluid"
               />
@@ -121,7 +121,7 @@
           <div class="row produtos">
             <div>
               <img
-                src="@/assets/imagens/mascjaqueta.jpg"
+                src="@/assets/imagens/homfig2.jpg"
                 alt="Produto 1"
                 class="img-fluid"
               />
@@ -152,6 +152,8 @@
         </div>
       </div>
     </section>
+
+    <section id="corpo" class="container bg-whitesmoke p-5"></section>
     <section
       id="sugestao2"
       class="container text-center text-white bg-orangered p-5"
