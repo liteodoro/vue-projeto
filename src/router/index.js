@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '@/views/HomeView.vue';
-//import MulherView from '@/components/MulherView.vue';
-//import HommenView from '@/components/HomemView.vue';
+import HomeView from '../views/HomeView.vue';
 
 const routes = [{
         path: '/',
@@ -13,66 +11,55 @@ const routes = [{
         name: 'about',
         component: () =>
             import ('@/views/AboutView.vue')
-
     },
     {
         path: '/logon',
         name: 'login',
         component: () =>
-            import ('@/views/LogonView.vue') 
-
+            import ('@/views/LogonView.vue')
     },
     {
         path: '/usuario_add',
         name: 'usuario_add',
         component: () =>
-            import ('@/views/UsuarioForm.vue') 
-
+            import ('@/views/UsuarioForm.vue')
     },
     {
         path: '/usuario_list',
         name: 'usuario_list',
         component: () =>
-            import ('@/views/UsuarioList.vue') 
-
+            import ('@/views/UsuarioList.vue')
     },
     {
         path: '/usuario_perfil',
         name: 'usuario_pefil',
         component: () =>
-            import ('@/views/UsuarioPerfil.vue') 
-
+            import ('@/views/UsuarioPerfil.vue')
     },
     {
         path: '/pedidos',
         name: 'pedidos',
         component: () =>
-            import ('@/views/PedidosView.vue') 
-
+            import ('@/views/PedidosView.vue')
     },
     {
         path: '/produtos',
         name: 'produtos',
         component: () =>
             import ('@/views/ProdutosView.vue')
-
     },
-
     {
-        //path: '/Mulher',
-       // name: 'Mulher',
-        //component: () =>
-          //  import ('@/components/MulherView.vue') 
-
+        path: '/homem',
+        name: 'homem',
+        component: () =>
+            import ('@/components/HomemView.vue')
     },
-
     {
-       // path: '/Homem',
-       // name: 'Homem',
-       // component: () =>
-          //  import ('@/components/HomemView.vue') 
-
-    },
+        path: '/mulher',
+        name: 'mulher',
+        component: () =>
+            import ('@/components/MulherView.vue')
+    }
 ];
 
 

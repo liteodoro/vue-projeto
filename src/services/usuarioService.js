@@ -21,7 +21,7 @@ export default {
 
     login: function(dadosUsuario) {
         // {
-        //  "usuario": "teodorolilisilva@gmail.com",
+        //  "usuario": "teodorolilisilva@email.com",
         //  "senha": "123@123"
         // }
         console.log(dadosUsuario);
