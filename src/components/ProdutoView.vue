@@ -78,11 +78,11 @@
                       <H3>Descrição Detalhada:</h3>
 
                         <div class="p-4">
-                          <p>
+                          <p></p>
                             O Vestido Curto Jeans Plus Size Bufante Uma Maria Denim Claro Filipa by Costela de Adão modas é um visual <br>
                             completo quando você busca por praticidade e conforto, mas sem deixar o estilo de lado! Aposte!<br>
 
-                            <p class="py-3 px-2">
+                            <p></p>p class="py-3 px-2">
                               <h4> Características:</h4>
                                Jeans claro
                                Comprimento curto
@@ -98,7 +98,7 @@
                   <h2>Avaliação</h2>
 
               </div>
-              <div>
+              <div></div>
                 <div class="row">
                     <div class="col-md-8 col-12 py-2 px-5">
                         <div class="row produtos p-2 border-circle">

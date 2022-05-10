@@ -1,5 +1,7 @@
 <template>
+
   <NavbarPage />
+  
   <section class="container bg-light"></section>
 </template>
 

@@ -42,13 +42,9 @@
                     <div class="imgBG4 border-circle size">
                     </div>
                     <div class="text-center">
-                      <ul>
-                        <!--<li><router-link to="/Mulher"></router-link></li>-->
+                        <router-link to="/Mulher">
                         <H4>Para Elas</h4>
-                      </ul>
-                      <!--<a href="/Mulher" target="_blank">
-                        <H4>Para Elas</h4>
-                    </a>-->
+                        </router-link>
                     </div>
                   </div>
                   <div class="col-md-6 col-12">
@@ -56,12 +52,10 @@
                     </div>
                     <div class="text-center">
                       <ul>
-                       <!-- <li><router-link to="/Homem"></router-link></li>-->
+                       <router-link to="/Homem">
                         <H4>Para Eles</h4>
+                        </router-link>
                       </ul>
-                      <!--<a href="/Homem" target="_blank">
-                        <H4>Para Eles</h4>
-                    </a>-->
                     </div>
                   </div>
                 </div>
@@ -89,6 +83,7 @@
                                     <i class="bi bi-emoji-heart-eyes"></i>
                                 </div>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div class="col-md-8 col-12 py-2 px-5">

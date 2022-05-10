@@ -8,23 +8,20 @@ export default {
         return http.post("usuario/add", dadosUsuario);
     },
 
-
     list: function() {
         return http.get("usuario/list");
     },
-
 
     get: function(id) {
         return http.get("usuario/get/" + id);
     },
 
-
+    /// {
+    ///  "usuario": "teodorolilisilva@email.com",
+    ///  "senha": "123@123"
+    /// }
     login: function(dadosUsuario) {
-        // {
-        //  "usuario": "teodorolilisilva@email.com",
-        //  "senha": "123@123"
-        // }
-        console.log(dadosUsuario);
+        //console.log(dadosUsuario);
         return http.post("usuario/logon", dadosUsuario);
     },
 
@@ -32,6 +29,4 @@ export default {
         console.log(files);
         return http.post("usuario/upload", files);
     }
-
-
 };
