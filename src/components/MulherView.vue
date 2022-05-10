@@ -1,8 +1,8 @@
 <template>
   <main id="home">
-    <div class="btnVoltar">
-      <a href="/"><i class="bi bi-arrow-up-circle"></i></a>
-    </div>
+   <!----<div class="btnVoltar">
+      <a href="/Mulher"><i class="bi bi-arrow-up-circle"></i></a>
+    </div>-->
 
     <section id="palalogin" class="container text-white bg-green">
       <h3>Costela de Adão Modas</h3>

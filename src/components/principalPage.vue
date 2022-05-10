@@ -1,8 +1,8 @@
 <template>
 <main id="Home">
-         <div class="btnVoltar">
-            <a href="principalPage.vue"><i class="bi bi-arrow-up-circle"></i></a>
-         </div>
+         <!--<div class="btnVoltar">
+            <router-link to="/"><i class="bi bi-arrow-up-circle"></i></router-link>
+         </div>-->
 
                   <!--começo propaganda1-->
                   

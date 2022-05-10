@@ -1,8 +1,8 @@
  <template>
   <main id="Home">
-    <div class="btnVoltar">
+    <!--<div class="btnVoltar">
       <router-link to="/"><i class="bi bi-arrow-up-circle"></i></router-link>
-    </div>
+    </div>-->
 
     <HeaderPage/>
     <NavbarPage/>
@@ -55,17 +55,17 @@
           <div class="col-md-6 col-12">
             <div class="imgBG4 border-circle size"></div>
             <div class="text-center">
-              <a href="#mulher" target="_blank">
+              <router-link to="/mulher" target="_blank">
                 <H4>Para Elas</H4>
-              </a>
+              </router-link>
             </div>
           </div>
           <div class="col-md-6 col-12">
             <div class="imgBG5 border-circle size"></div>
             <div class="text-center">
-              <a href="#homen" target="_blank">
+              <router-link to="/homem" target="_blank">
                 <H4>Para Eles</H4>
-              </a>
+              </router-link>
             </div>
           </div>
         </div>
