@@ -54,14 +54,14 @@ import ProdutoService from "@/services/produtoService";
 import { configure } from "@/services/config";
 var monkProduto = [
   {
-    nome: "Celular",
-    descricao: "Celular 4g",
-    valor: 1200,
+    nome: "Vestido",
+    descricao: "Vestido gode",
+    valor: 120.00,
   },
   {
-    nome: "Celular2",
-    descricao: "Celular 5g",
-    valor: 2200,
+    nome: "Vestido plus size",
+    descricao: "Vestido de Festa",
+    valor: 200.00,
   },
 ];
 var produtos = monkProduto;

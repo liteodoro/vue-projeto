@@ -209,10 +209,12 @@
 </template>
 
 <script>
-//@ e um atalho para o src
+
 import HeaderPage from "@/components/HeaderPage.vue";
 import NavbarPage from "@/components/NavbarPage.vue";
+
 export default {
+
   components: {
     HeaderPage,
     NavbarPage,
