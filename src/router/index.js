@@ -59,6 +59,13 @@ const routes = [{
         name: 'mulher',
         component: () =>
             import ('@/components/MulherView.vue')
+    },
+
+    {
+        path: '/produto_add',
+        name: 'produto_add',
+        component: () =>
+            import ('@/views/ProdutoForm.vue')
     }
 ];
 

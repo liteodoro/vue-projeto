@@ -82,7 +82,7 @@
     </div>
 
     <div class="mb-3">
-      <button type="button" class="btn btn-primary mx-1" @click="cadastrar()">
+      <button type="button" class="btn btn-success mx-1" @click="cadastrar()">
         Cadastrar
       </button>
       <button type="button" class="btn btn-danger" @click="$router.push('/')">

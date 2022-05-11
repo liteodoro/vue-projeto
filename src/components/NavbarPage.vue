@@ -31,9 +31,10 @@
                 >Produtos</router-link
               >
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link" href="#areaSocial">Clientes</a>
-            </li>
+            </li> -->
+            
             <li class="nav-item">
               <router-link to="/homem" class="nav-link" aria-current="page"
                 >Homem</router-link
@@ -96,9 +97,9 @@ export default {
   mounted() {
     this.getUsuario();
   },
-  watch() {
-    this.usuario;
-  },
+ // watch() {
+   // this.usuario;
+ // },
 };
 </script>
 

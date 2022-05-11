@@ -4,15 +4,15 @@
       <a href="#home"><i class="bi bi-arrow-up-circle"></i></a>
     </div>
 
-    <navbar-page />
-
     <section id="palalogin" class="container text-white bg-green">
       <h3>Costela de Adão Modas</h3>
     </section>
 
+     <navbar-page/>
+
     <section id="corpo" class="container bg-whitesmoke">
       <div class="p-5">
-        <h2>Artigos Maculinos</h2>
+        <h2>Artigos Masculinos</h2>
       </div>
 
       <div class="row">
@@ -20,13 +20,13 @@
           <div class="row produtos">
             <div>
               <img
-                src="@/assets/imagens/homfig1.jpg"
+                src="@/assets/imagens/homfig2.jpg"
                 alt="Produto 1"
                 class="img-fluid"
               />
             </div>
             <div class="p-1">
-              <h2>Produto 1</h2>
+              <h2>Produto </h2>
             </div>
             <div class="p-1">
               <p>Descrição produtos</p>
@@ -88,7 +88,7 @@
           <div class="row produtos">
             <div>
               <img
-                src="@/assets/imagens/homfig3.jpg"
+                src="@/assets/imagens/homfig2.jpg"
                 alt="Produto 1"
                 class="img-fluid"
               />
@@ -121,7 +121,7 @@
           <div class="row produtos">
             <div>
               <img
-                src="@/assets/imagens/mascjaqueta.jpg"
+                src="@/assets/imagens/homfig2.jpg"
                 alt="Produto 1"
                 class="img-fluid"
               />
@@ -152,6 +152,8 @@
         </div>
       </div>
     </section>
+
+    <section id="corpo" class="container bg-whitesmoke p-5"></section>
     <section
       id="sugestao2"
       class="container text-center text-white bg-orangered p-5"
@@ -172,7 +174,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoções do dia 31/01 até dia 5/02/22</small
+                >Promoções do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>
@@ -192,7 +194,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoções do dia 31/01 até dia 5/02/22</small
+                >Promoções do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>
@@ -214,7 +216,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoções do dia 31/01 até dia 5/02/22</small
+                >Promoções do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>

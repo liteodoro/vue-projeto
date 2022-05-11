@@ -1,8 +1,8 @@
  <template>
   <main id="Home">
-    <div class="btnVoltar">
+    <!--<div class="btnVoltar">
       <router-link to="/"><i class="bi bi-arrow-up-circle"></i></router-link>
-    </div>
+    </div>-->
 
     <HeaderPage/>
     <NavbarPage/>
@@ -55,22 +55,23 @@
           <div class="col-md-6 col-12">
             <div class="imgBG4 border-circle size"></div>
             <div class="text-center">
-              <a href="#mulher" target="_blank">
+              <router-link to="/mulher" target="_blank">
                 <H4>Para Elas</H4>
-              </a>
+              </router-link>
             </div>
           </div>
           <div class="col-md-6 col-12">
             <div class="imgBG5 border-circle size"></div>
             <div class="text-center">
-              <a href="#homen" target="_blank">
+              <router-link to="/homem" target="_blank">
                 <H4>Para Eles</H4>
-              </a>
+              </router-link>
             </div>
           </div>
         </div>
       </div>
     </section>
+    
     <!--começa a propaganda 2>-->
     <section id="propaganda2" class="container centro bg-grey">
       <div class="row">
@@ -174,8 +175,8 @@
           </div>
           <div class="col-md-4 col-12">
             <div>
-              <p>Trocas e Devoluções</p>
-              <p>Sugestões</p>
+             <!--- <p>Trocas e Devoluções</p>
+              <p>Sugestões</p>-->
             </div>
           </div>
           <div class="col-md-4 col-12 p-5">
@@ -209,10 +210,12 @@
 </template>
 
 <script>
-//@ e um atalho para o src
+
 import HeaderPage from "@/components/HeaderPage.vue";
 import NavbarPage from "@/components/NavbarPage.vue";
+
 export default {
+
   components: {
     HeaderPage,
     NavbarPage,

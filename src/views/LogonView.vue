@@ -1,6 +1,8 @@
 <template>
+
   <div>
     <NavbarPage />
+
     <section class="container">
       <form action="" class="col-12 col-md-6 m-auto bg-white p-5">
         <div class="form-group">
@@ -26,7 +28,7 @@
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
             <button
               type="button"
-              class="btn btn-primary mx-1"
+              class="btn btn-warning mx-1"
               @click="logonUsuario()"
             >
               Entrar
@@ -46,7 +48,7 @@
             Cadastrar
           </button> -->
           <div class="d-grid gap-2">
-            <router-link to="usuario_add" class="btn btn-outline-warning mx-1">
+            <router-link to="usuario_add" class="btn btn-outline-success mx-1">
               Cadastrar
             </router-link>
           </div>

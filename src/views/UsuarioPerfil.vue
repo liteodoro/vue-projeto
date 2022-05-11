@@ -1,5 +1,8 @@
 <template>
+<main>
+
   <NavbarPage />
+
   <section class="container bg-light">
     <div class="card mb-3">
       <div class="card-header">
@@ -8,7 +11,13 @@
       <div class="card-body">
         <div class="row">
           <div class="col-4 text-center">
-            <img class="img-fluid rounded col-12" alt="perfil" :src="perfil" />
+            <img
+              v-if="usuario.foto_perfil != null"
+              class="img-fluid rounded col-12"
+              alt="perfil"
+              :src="perfil"
+            />
+            <img v-else src="@/assets/imagens/perfil.jpg" alt="" />
             <div>
               <small class="text-muted">{{ usuario.foto_perfil }}</small>
             </div>
@@ -22,6 +31,7 @@
                 aria-describedby="helpId"
                 id="files"
                 ref="files"
+                multiple
                 @change="upload()"
               />
               <small id="helpId" class="text-muted"></small>
@@ -41,13 +51,16 @@
       </div>
     </div>
   </section>
+  </main>
 </template>
 
 <script>
 import NavbarPage from "@/components/NavbarPage.vue";
 import { Usuario } from "@/models/Usuario"; //{} seve para pegar as classes com o nome defalt
 import UsuarioService from "@/services/usuarioService";
+import { configure } from "@/services/config";
 var usuario = new Usuario();
+var foto = "@/assets/perfil.png";
 export default {
   components: {
     NavbarPage,
@@ -55,6 +68,7 @@ export default {
   data() {
     return {
       usuario,
+      foto,
     };
   },
   methods: {
@@ -111,13 +125,7 @@ export default {
   // },
   computed: {
     perfil() {
-      if (
-        typeof this.usuario.foto_perfil == undefined ||
-        this.usuario.foto_perfil == ""
-      ) {
-        return "@/assets/imagens/fotoperfil.jpg";
-      }
-      return "http://localhost/api/midias/user/" + this.usuario.foto_perfil;
+      return configure.localHost + "/midias/user/" + this.usuario.foto_perfil;
     },
   },
 };
