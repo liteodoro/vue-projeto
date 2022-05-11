@@ -174,7 +174,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoções do dia 31/01 até dia 5/02/22</small
+                >Promoções do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>
@@ -194,7 +194,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoções do dia 31/01 até dia 5/02/22</small
+                >Promoções do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>
@@ -216,7 +216,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoções do dia 31/01 até dia 5/02/22</small
+                >Promoções do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>

@@ -183,7 +183,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoção valida do dia 31/01 até dia 5/02</small
+                >Promoção valida do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>
@@ -204,7 +204,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoção valida do dia 31/01 até dia 5/02</small
+                >Promoção valida do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>
@@ -224,7 +224,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted"
-                >Promoção valida do dia 31/01 até dia 5/02</small
+                >Promoção valida do dia 31/05 até dia 5/06/22</small
               >
             </div>
           </div>

@@ -1,10 +1,15 @@
 <template>
-  <section id="produtos" class="container clearfix bg-white">
+<main>
+  <section id="palalogin" class="container text-white bg-green">
+      <h3>Costela de Adão Modas</h3>
+    </section>
+
+  <section id="produtos" class="container clearfix bg-white p-5">
     <div class="row">
       <div class="col-6 col-md-3" v-for="produto of produtos" :key="produto.id">
         <div class="produtos">
           <div class="p-0">
-            <a href="pages/produto-detalhe.html" target="_self">
+            <a href="@/assets/imagens/girl2.jpg" target="_self">
               <img
                 :src="mostrarFoto(produto.fotos)"
                 :alt="produto.descricao"
@@ -34,7 +39,7 @@
             </div>
             <div class="col-md-6 col-12 p-2">
               <div class="">
-                <a href="pages/produto-detalhe.html" target="_blank">
+                <a href="@/assets/imagens/girl2.jpg" target="_blank">
                   <button type="button" class="btn bg-yellow col-12">
                     Comprar
                   </button>
@@ -46,12 +51,14 @@
       </div>
     </div>
   </section>
+  </main>
 </template>
 
 <script>
 //import { Produto } from "@/models/Produto";
 import ProdutoService from "@/services/produtoService";
 import { configure } from "@/services/config";
+
 var monkProduto = [
   {
     nome: "Vestido",

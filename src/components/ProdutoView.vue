@@ -155,10 +155,10 @@ export default {
   },
   data() {
     return {
-        dataAtual = new Date()
+        dataAtual : new Date()
     };
   },
-  methods:{
+   methods:{
     bomdia() {
       alert("Bom dia!");
     }
