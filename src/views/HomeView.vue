@@ -174,8 +174,8 @@
           </div>
           <div class="col-md-4 col-12">
             <div>
-              <p>Trocas e Devoluções</p>
-              <p>Sugestões</p>
+             <!--- <p>Trocas e Devoluções</p>
+              <p>Sugestões</p>-->
             </div>
           </div>
           <div class="col-md-4 col-12 p-5">
