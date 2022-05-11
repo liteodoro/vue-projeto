@@ -12,7 +12,7 @@
 
     <section id="corpo" class="container bg-whitesmoke">
       <div class="p-5">
-        <h2>Artigos Maculinos</h2>
+        <h2>Artigos Masculinos</h2>
       </div>
 
       <div class="row">
@@ -26,7 +26,7 @@
               />
             </div>
             <div class="p-1">
-              <h2>Produto 1</h2>
+              <h2>Produto </h2>
             </div>
             <div class="p-1">
               <p>Descrição produtos</p>
